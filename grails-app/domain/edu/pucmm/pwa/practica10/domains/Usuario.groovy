@@ -10,9 +10,8 @@ class Usuario {
     * Editor: Tiene acceso limitado a la creacion y modificacion de productos
     * Cliente: Tiene acceso a comprar
     */
-    String tipoUsuario
-
-    static hasMany = [carritos: Carro_Compra]
+    static belongsTo = [Tipo_Usuario]
+    static hasMany = [carritos: Carro_Compra, tipoUsuario: Tipo_Usuario]
 
     static constraints = {
         nombres blank: false
