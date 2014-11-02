@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Practica10:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Practica10_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Practica10/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Practica10" />
+          <element id="module-output" name="Practica10-grailsPlugins" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Vaadin Server" />
+          <element id="library" level="module" name="Grails User Library (Practica10-grailsPlugins)" module-name="Practica10-grailsPlugins" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

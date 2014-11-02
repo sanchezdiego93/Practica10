@@ -12,7 +12,7 @@ class Producto {
     static constraints = {
         nombre blank: false
         descripcion blank: true
-        precio null: false, min: 1
+        precio null: false
         cantidadDisponible null: false, min: 0
         fotos null: true
     }
